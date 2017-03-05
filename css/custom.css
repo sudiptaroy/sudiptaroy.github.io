@@ -49,7 +49,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 40px;
     font-size: 30px;
     font-weight:600;
-    color: rgba(255,255,255,.7);
+    color: rgba(208,9%,89%,.9);
     text-shadow: #EEEEEE 0 0 10px;
 }
 
@@ -57,7 +57,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: bold;
-    color: rgba(255,255,255,.9);
+    color: rgba(208,9%,89%,.9);
     text-shadow: #EEEEEE 0 0 10px;
 }
 
@@ -443,7 +443,7 @@ img::-moz-selection {
   text-align:center;
   width: 100%;
   /*float: right;*/
-  color: rgba(255,255,255,.7);
+  color: rgba(208,9%,89%,.9);
   
 }
 .scrolling-div-content{
