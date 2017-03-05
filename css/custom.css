@@ -446,7 +446,7 @@ img::-moz-selection {
   /*float: right;*/
   font-weight:bolder;
   color: rgba(208,9%,89%,.9);
-  text-shadow: #EEEEEE 0 0 10px;
+  /*text-shadow: #EEEEEE 0 0 10px;*/
   
 }
 .scrolling-div-content{
