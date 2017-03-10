@@ -734,7 +734,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e387d', endC
  #ex1 {max-width:50% }
  
  @media (max-width: 767px) {
- #ex1 {max-width:60%; }
+ #ex1 {max-width:80%; }
 .accordion-xs .headings { display: none; }
 
 .accordion-xs .tr { border-bottom-color: #fff; }
