@@ -113,7 +113,7 @@ header .header-content .header-content-inner p {
     color: rgba(68,66,66,.5);
 }
 
-.wrapsss {
+.offerings {
     background: #80b600;
     margin: 0 auto;
     height: auto;
@@ -782,3 +782,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e387d', endC
   -webkit-font-smoothing: antialiased;
 }
 }
+
+.disclaimer {
+   margin-top:10px;
+   text-align:left;
+   color:black;
+   font-family:inherit;
+   font-style:inherit;
+   font-size:13px;
+   font-weight:600;
+   opacity:0.8;   
+   
+ }
