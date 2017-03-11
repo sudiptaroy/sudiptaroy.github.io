@@ -752,9 +752,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e387d', endC
   color: black;
   padding: 10px;
   cursor: pointer;
+  margin-bottom:5px;
 }
 
-.accordion-xs .accordion-xs-toggle:hover { background-color: #e69500; }
+.accordion-xs .accordion-xs-toggle:hover { background-color: #80b600; }
 
 .accordion-xs .accordion-xs-toggle:after {
   content: '\2b';
