@@ -100,21 +100,26 @@
       					 	  <div class="scrolling-div" id="scrollingdiv">
                       	 	  	   <ul class="scrolling-div-content">
       						  	   	   </br></br></br></br>
-                          	  	  	   <li style="text-align:left;">TCS BUY @ 2450<br>
+                          	  	  	   <li style="text-align:left;"><button class="btn-success" style="width:50px;margin-right:10px">BUY</button>TCS <br>
+                                           Entry @ 2450<br>
       							  	   	   1st TGT - 2500 2nd TGT - 2600<br>
-      							  	   	   STOP LOSS - 2425</li>
-                          		  	   <li style="text-align:left;">SBI BUY @ 2450<br>
+      							  	   	   Stoploss - 2425</li>
+                          		  	   <li style="text-align:left;"><button class="btn-danger" style="width:50px;margin-right:10px">SELL</button>SBI <br>
+                                           Entry @ 2450<br>
       							  	   	   1st TGT - 2500 2nd TGT - 2600<br>
-      							  		   STOP LOSS - 2425</li>
-      								   <li style="text-align:left">ICICI BUY @ 2450<br>
+      							  		   Stoploss - 2425</li>
+      								   <li style="text-align:left"><button class="btn-danger" style="width:50px;margin-right:10px">SELL</button>ICICI <br>
+                                           Entry @ 2450<br>
       							       	   1st TGT - 2500 2nd TGT - 2600<br>
-      							  		   STOP LOSS - 2425</li>
-      							  	   <li style="text-align:left">TATA STEEL BUY @ 2450<br>
+      							  		   Stoploss - 2425</li>
+      							  	   <li style="text-align:left"><button class="btn-success" style="width:50px;margin-right:10px">BUY</button>TATA STEEL <br>
+                                           Entry @ 2450<br>
       							  	   	   1st TGT - 2500 2nd TGT - 2600<br>
-      							  		   STOP LOSS - 2425</li>
-      							  	   <li style="text-align:left">EMKAY GLOBAL BUY @ 2450<br>
+      							  		   Stoploss - 2425</li>
+      							  	   <li style="text-align:left"><button class="btn-success" style="width:50px;margin-right:10px">BUY</button>EMKAY GLOBAL <br>
+                                           Entry @ 2450<br>
         							   	   1st TGT - 2500 2nd TGT - 2600<br>
-      							  		   STOP LOSS - 2425</li>
+      							  		   Stoploss - 2425</li>
                                    </ul>
                                </div>
                                <!-- Link to open the modal -->
@@ -215,7 +220,7 @@
     					<h2 class="section-heading intro-text-light">Our <b>OFFERINGS</b></h2>
     					<div class="row m20">
     						 <div class="col-md-6">
-    						 	  <a href="#" tgt="_blank">
+    						 	  <a href="#" tgt="_blank" onclick="javascript:navigation('training');return false;">
     							  	 <div class="offerings m20">
     								 	  <h4> 
     									  	   <i class="fa fa-line-chart m10" aria-hidden="true"></i>
@@ -226,7 +231,7 @@
     							  </a>
     						 </div>
     						 <div class="col-md-6">
-    						 	  <a href="#" tgt="_blank">
+    						 	  <a href="#" tgt="_blank" onclick="javascript:toggleindicator('longtermindicator');return false;">
     							  	 <div class="offerings m20">
     								 	  <h4> 
     									  	   <i class="fa fa-line-chart m10" aria-hidden="true"></i>
@@ -239,7 +244,7 @@
     					</div>
     					<div class="row m20">
     						 <div class="col-md-6">
-    						 	  <a href="#" tgt="_blank">
+    						 	  <a href="#" tgt="_blank" onclick="javascript:toggleindicator('shorttermindicator');return false;">
     							  	 <div class="offerings m20">
     								 	  <h4> 
     									  	   <i class="fa fa-line-chart m10" aria-hidden="true"></i>
@@ -250,7 +255,7 @@
     							  </a>
     						 </div>
     						 <div class="col-md-6">
-    						 	  <a href="#" tgt="_blank">
+    						 	  <a href="#" tgt="_blank" onclick="javascript:toggleindicator('intradayindicator');return false;">
     							  	 <div class="offerings m20">
     								 	  <h4> 
     									  	   <i class="fa fa-line-chart m10" aria-hidden="true"></i>
@@ -375,16 +380,94 @@
       	<!-- Content 2 -->
            <section class="content content-2" id="indicator">
               <div class="container">
-                  <div class="row">
+                  <div class="row" id="longtermindicator">
                       <div class="col-sm-6">
-                      	<h2 class="section-heading">Long Term Buy / Sell Signal</h2>
-                      	<p class="lead text-light">Long term Buy / Sell Signal </p>
+                      	<h2 class="section-heading text-muted" style="text-align:center"><b>Long Term Indicator</b></h2>
+                      	<p class="lead text-muted">Long-term investments has the ability to attain small amounts of money over a longer period of time. The slow-but-steady pace of long-term investments allow for a much greater stability and a much lower risk than short-term investments. This indicator will generate bu/sell signal to help you manage your investment over longer period of time.
+                        <br>
+                        <br>
+                        The prerequisite for using this indicator is to have Metastock and daily data, so that the indicator can generate the signal on the latest data.
+                        </p>
                       	<a href="#" class="btn btn-default btn-lg">Buy Indicator</a>
       					<br>
       					<br>
                       </div>    
                       <div class="col-sm-6">
-                          <h2 class="section-heading" style="text-align:center">Charges</h2>
+                          <h2 class="section-heading text-muted" style="text-align:center"><b>Charges</b></h2>
+      					<p class="text-muted">Indicator cost is INR 25,000/- per indicator. Please transfer the money in the below bank account. Once payment is deposited, then please submit the details of the same by clicking on the Register button.</p>
+      					<div class="table-2">
+      						 <table width="100%">
+      						 		<tbody>
+      									<tr>
+      									   <td class="text-muted" align="left"><strong>STATE BANK OF INDIA</strong><br>
+      									   Current Account Name -
+      									    XXXX<br>
+      										<strong>ACCOUNT NO. :</strong> XXXX</td>
+      									</tr>
+      									<tr><td>&nbsp;</td></tr>
+      									<tr>
+      									   <td class="text-muted" align="left"><strong>ICICI Bank</strong><br>
+      									   Current Account Name - 
+      									    XXXX<br>
+      										<strong>ACCOUNT NO. :</strong> XXXX</td>
+      									</tr>
+      								</tbody>
+      						</table>
+      					</div>	
+                      </div>               
+                  </div>
+                  
+                  <div class="row" id="shorttermindicator" style="display:none">
+                      <div class="col-sm-6">
+                      	<h2 class="section-heading text-muted" style="text-align:center"><b>Short Term Indicator</b></h2>
+                      	<p class="lead text-muted">The principal benefits to short-term investments are the talents for fast growth and the fact that the time period could last just a few weeks to some months. Though there tends to be extra fluctuation in lots of types of short-term investments, these investments permit extra control over your cash and it commonly isn’t out of your possession for longer periods. This indicator will generate signal for short term investement.
+                        <br>
+                        <br>
+                        The prerequisite for using this indicator is to have Metastock and daily data, so that the indicator can generate the signal on the latest data.
+                        </p>
+                      	<a href="#" class="btn btn-default btn-lg">Buy Indicator</a>
+      					<br>
+      					<br>
+                      </div>    
+                      <div class="col-sm-6">
+                          <h2 class="section-heading text-muted" style="text-align:center"><b>Charges</b></h2>
+      					<p class="text-muted">Indicator cost is INR 15,000/- per indicator. Please transfer the money in the below bank account. Once payment is deposited, then please submit the details of the same by clicking on the Register button.</p>
+      					<div class="table-2">
+      						 <table width="100%">
+      						 		<tbody>
+      									<tr>
+      									   <td class="text-muted" align="left"><strong>STATE BANK OF INDIA</strong><br>
+      									   Current Account Name -
+      									    XXXX<br>
+      										<strong>ACCOUNT NO. :</strong> XXXX</td>
+      									</tr>
+      									<tr><td>&nbsp;</td></tr>
+      									<tr>
+      									   <td class="text-muted" align="left"><strong>ICICI Bank</strong><br>
+      									   Current Account Name - 
+      									    XXXX<br>
+      										<strong>ACCOUNT NO. :</strong> XXXX</td>
+      									</tr>
+      								</tbody>
+      						</table>
+      					</div>	
+                      </div>                
+                  </div>
+                  
+                  <div class="row" id="intradayindicator" style="display:none">
+                      <div class="col-sm-6">
+                      	<h2 class="section-heading text-muted" style="text-align:center"><b>Intraday Indicator</b></h2>
+                      	<p class="lead text-muted">Inttraday indicator generates signal purely for intraday trading and is not recommneded to carry the intraday position overnight.
+                        <br>
+                        <br>
+                        The prerequisite for using this indicator is to have Metastock and daily data, so that the indicator can generate the signal on the latest data.
+                        </p>
+                      	<a href="#" class="btn btn-default btn-lg">Buy Indicator</a>
+      					<br>
+      					<br>
+                      </div>    
+                      <div class="col-sm-6">
+                          <h2 class="section-heading text-muted" style="text-align:center"><b>Charges</b></h2>
       					<p class="text-muted">Indicator cost is INR 10,000/- per indicator. Please transfer the money in the below bank account. Once payment is deposited, then please submit the details of the same by clicking on the Register button.</p>
       					<div class="table-2">
       						 <table width="100%">
@@ -405,33 +488,33 @@
       								</tbody>
       						</table>
       					</div>	
-                      </div>            
-                      
+                      </div>                
                   </div>
+                  
               </div>
       		<br>
       		 <!-- Promos -->
           	<div class="container-fluid">
                   <div class="row promo">
-                  	<a href="#">
+                  	<a href="#" onclick="javascript:toggleindicator('longtermindicator');return false;">
           				<div class="col-md-4 promo-item item-1">
           					<h3>
-          						Long Term Buy/Sell
+          						Long Term Indicator
           					</h3>
           				</div>
                       </a>
-                      <a href="#">
+                      <a href="#" onclick="javascript:toggleindicator('shorttermindicator');return false;">
           				<div class="col-md-4 promo-item item-2">
           					<h3>
-          						Intraday Buy/Sell
+          						Short Term Indicator
           					</h3>
           				</div>
                       </a>
           			
-          			<a href="#">
+          			<a href="#" onclick="javascript:toggleindicator('intradayindicator');return false;">
           				<div class="col-md-4 promo-item item-3">
           					<h3>
-          						Short Term Buy/Sell
+          						Intraday Indicator
           					</h3>
           				</div>
                       </a>
@@ -439,22 +522,8 @@
               </div><!-- /.container-fluid -->
           </section>    
       
-         
-      
-      	<!-- Content 3 -->
-          <!--
-           <section class="content content-3">
-              <div class="container">
-      			<h2 class="section-header"><span class="glyphicon glyphicon-pushpin text-primary"></span><br> Sanity Check</h2>
-      			<p class="lead text-muted">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p> 
-                          <a href="#" class="btn btn-primary btn-lg">Check Now</a>               
-                  </div>
-              </div>
-          </section>
-          -->
       	<section class="content contact" id="contactus">
               <!-- Contact Us -->
-              <div>
               	<div class="container">
                     <div class="row m10">
                         <div class="col-md-4">
@@ -501,7 +570,6 @@
                         </div>
                     </div>
                 </div>
-              </div>
       		<!-- hidden inline form -->
               
           </section>

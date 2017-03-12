@@ -145,6 +145,15 @@
     }
   }
   
+  function toggleindicator(element) {
+      navigation('indicator');
+      $('#longtermindicator').hide();
+      $('#shorttermindicator').hide();
+      $('#intradayindicator').hide();
+      
+      $('#'+element).show();
+  }
+  
   $(function() {    
       var isXS = false,
           $accordionXSCollapse = $('.accordion-xs-collapse');
